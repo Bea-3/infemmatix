@@ -6,4 +6,3 @@ export { default as DataTracker } from "./DataTracker";
 export { default as Community } from "./Community";
 export { default as Newsletter } from "./Newsletter";
 export { default as Testimonials } from "./Testimonials";
-

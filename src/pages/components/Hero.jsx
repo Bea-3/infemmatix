@@ -4,7 +4,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className=' w-full min-h-[400px] flex pt-9 absolute top-40'>
-        <div className='max-w-[500px]   flex flex-col gap-9 justify-center m-3'>
+        <div className='max-w-[500px] flex flex-col gap-9 justify-center m-3 '>
             <h1 className='text-4xl text-white'>THE <span className='textGradient'>POWER</span> OF <span className='textGradient'>DATA</span> IN <span className='text-primaryPurple'>WOMEN'S</span> HANDS</h1>
 
             <div className='w-2/3 flex gap-4 p-2'>
