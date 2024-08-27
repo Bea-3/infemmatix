@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,9 +8,10 @@
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-style: normal;
 /* 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -23,7 +25,40 @@
 
 body {
   margin: 0;
- background-color: black;
+  background-color: black;
+  overflow-x: hidden;
+  color: white;
+}
+
+.textGradient {
+  background: linear-gradient(90deg, #8C52FF 0%, #55EECC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.borderGradient {
+  border: 2px solid; /* Adjust thickness as needed */
+  border-image: linear-gradient(90deg, #8C52FF 0%, #55EECC 100%);
+  border-image-slice: 1;
+  border-radius: 5px;
+}
+.heroImage-waves {
+  background-image: url(./assets/icons/waves.svg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+  left: 50%; /* Start from the middle */
+  transform: translateX(-50%); /* Move it to the center */
+  background-position: center;
+  background-size: cover;
+  height: inherit;
+}
+.heroImage-hand {
+  background-image: url(./assets/icons/Hand_Palm.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: contain;
 }
 
 /* @media (prefers-color-scheme: light) {
