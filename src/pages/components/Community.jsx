@@ -3,8 +3,8 @@ import heartImage from '../../assets/images/heart.png';
 
 const Community = () => {
   return (
-    <div className='container mx-auto min-h-[400px] md:flex gap-5 justify-between'>
-        <div className='w-[40%]'>
+    <div className='container mx-auto min-h-[400px] md:flex gap-5 justify-between community'>
+        <div className='w-[40%] heart'>
             <img src={heartImage} alt="A heart illustration" /></div>
         <div className='text-primaryText flex flex-col justify-center gap-5 md:w-[57%] py-4 md:px-6'>
             <h2 className='text-5xl'>Community</h2>

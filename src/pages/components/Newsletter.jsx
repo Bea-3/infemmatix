@@ -3,13 +3,13 @@ import envelopeIcon from '../../assets/icons/mail.svg';
 
 const Newsletter = () => {
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto mt-20 newsletter">
         <div className="relative flex flex-col sm:flex-row items-center mb-4 bg-white p-4 rounded-xl justify-between max-w-4xl gap-5">
           <div className="flex items-center w-full sm:w-auto mb-4 md:mb-0">
             <div className="w-12 h-12 bg-gray-200 rounded-lg flex justify-center items-center mr-3">
               <img src={envelopeIcon} alt="Envelope Icon" />
             </div>
-            <div className="text-xs md:text-base flex-grow md:flex-grow-0 md:w-3/10 text-center md:text-left text-gray-950">
+            <div className="text-base flex-grow md:flex-grow-0 md:w-3/10 text-center md:text-left text-gray-950">
             <h3 className='font-bold'>Join Our Community</h3>
               <p className="">
                 Sign-up to receive email updates

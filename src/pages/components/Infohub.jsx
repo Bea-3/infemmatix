@@ -3,7 +3,7 @@ import infohubImg from '../../assets/icons/infoHub-palm.svg';
 
 const Infohub = () => {
   return (
-    <div className='container mx-auto md:flex gap-5 justify-around'>
+    <div className='container mx-auto md:flex gap-5 justify-around infohub'>
         <div className='w-auto'>
         <img src={infohubImg} alt="Info hub image" />
         </div>

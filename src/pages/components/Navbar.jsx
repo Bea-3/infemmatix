@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="shadow relative w-full ">
+    <nav className="shadow relative w-full">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center flex-wrap">
         {/* Logo */}
         <div className=" w-1/5 lg:w-1/3">
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? 'max-h-screen' : 'max-h-0'
-          } transition-max-height duration-500 ease-in-out overflow-hidden md:hidden w-full mb-10 py-4`}
+          } transition-max-height duration-500 ease-in-out overflow-hidden md:hidden w-full mb-10 py-4 bg-black `}
         >
           <ul className="flex flex-col items-center justify-center space-y-6">
             <li className="mt-3 md:mt-0">

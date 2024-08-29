@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className='w-full min-h-[400px] absolute top-20 -right-80 heroImage-hand'></div>
         <Hero/>
       
-        <section className='flex justify-center my-20' >
+        <section className='flex justify-center my-20 text-glitch' >
           {/* <h2 className='text-center'>- Empowering Women Through Information -</h2> */}
           <img src={textGlitch} alt="" />
         </section>

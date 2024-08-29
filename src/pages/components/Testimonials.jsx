@@ -3,7 +3,7 @@ import quoteIcon from '../../assets/icons/quote-up.svg';
 
 const Testimonials = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto testimonial">
         <h2 className="text-4xl my-4 font-medium">Get Inspired By Our Users </h2>
         <div className="flex flex-col md:flex-row justify-between mt-8 gap-8 md:gap-4">
         <div className=" p-4 w-full md:w-1/3 md:max-w-xs h-auto flex flex-col gap-4 border border-gray-200 rounded-lg min-w-[400px]">

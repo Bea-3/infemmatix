@@ -3,7 +3,7 @@ import dataGraph from "../../assets/images/graph.png";
 
 const DataTracker = () => {
   return (
-    <div className="container mx-auto flex flex-col-reverse md:flex-row gap-5 justify-between">
+    <div className="container mx-auto flex flex-col-reverse md:flex-row gap-5 justify-between data-tracker">
       <div className="text-primaryText flex flex-col justify-center gap-5 w-full md:w-1/2 py-4">
         <h2 className="text-5xl">Data Tracker </h2>
 
@@ -26,7 +26,7 @@ const DataTracker = () => {
           Sign up
         </button>
       </div>
-      <div className="w-1/3 py-4 px-6">
+      <div className="w-1/3 py-4 px-6 data-graph">
         <img src={dataGraph} alt="Data Graph" />
       </div>
     </div>

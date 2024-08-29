@@ -3,7 +3,7 @@ import logo from "../../assets/icons/infemmatix-logo.svg";
 
 const Footer = () => {
   return (
-    <div className='container mx-auto flex flex-wrap justify-between'>
+    <div className='container mx-auto flex flex-wrap justify-between footer'>
       <div className='w-full md:w-[25%]'>
         <img src={logo} alt="" className='md:w-3/4' />
         <p className='my-5'>Empowering women by providing the data and information tools they need to combat gender-based issues.</p>
